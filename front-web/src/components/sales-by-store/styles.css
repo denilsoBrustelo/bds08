@@ -1,0 +1,55 @@
+.sales-by-store-container{
+  padding: 25px 15px 50px 30px;
+}
+
+.sales-by-store-title {
+  font-size: 24px;
+  color: var(--light-color);
+  margin-bottom: 5px;
+}
+
+.sales-by-store-period {
+  color: var(--grey-light-100-color);
+}
+
+.sales-by-store-data{
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.sales-by-store-quantity-container{
+  font-size: 36px;
+  color: var(--light-color);
+}
+
+.sales-by-date-quantity{
+   font-size: 36px;
+}
+
+.sales-by-store-quantity-label{
+  color: var(--green-color);
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sales-by-store-quantity-description{
+  font-size: 18px;
+  color: var(--grey-light-100-color)
+}
+
+.sales-by-store-chart{
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.apexcharts-legend.apexcharts-align-center{
+  flex-direction: column;
+  align-items: center;
+}
+

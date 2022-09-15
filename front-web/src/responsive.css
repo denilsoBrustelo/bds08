@@ -1,0 +1,55 @@
+@media screen and (max-width: 1200px) {
+  /* abaixo de 1200 vai aplicar isso */
+  .app-container .sales-overview-container {
+    flex-direction: column;
+  }
+
+
+  .app-container .sales-by-store-container {
+    height: auto;
+  }
+
+  .sales-by-store-container .sales-by-store-data {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sales-by-store-data .sales-by-store-quantity-container {
+    margin-top: 10px;
+    margin-bottom: 50px;
+  }
+
+  .sales-by-store-data .sales-by-store-chart {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  /* abaixo de 992 vai aplicar isso */
+  #root .app-container {
+    padding: 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  /* abaixo de 768 vai aplicar isso */
+  .filter-container.base-card {
+    flex-direction: column;
+    height: 100px;
+  }
+
+  .filter-container .filter-input {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* abaixo de 576 vai aplicar isso */
+
+
+}
+
